@@ -1,0 +1,62 @@
+body {
+	background: black;
+}
+
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+	padding: 10px;
+}
+.forgeekimg {
+	width: 50px;
+	height: 50px;
+}
+h1 {
+	width: 400px;
+	margin: 0;
+	padding-top: 5px;
+}
+.postcard-body {
+	display: flex;
+}
+.body-left {
+	width: 200px;
+	padding: 5px;
+}
+p {
+	font-family: "italianno";
+	font-size: 20px;
+}
+.first-para {
+	margin-top: 0%;
+}
+.body-right {
+	width: 200px;
+	padding: 5px;
+}
+input {
+	width: 100%;
+	padding: 1px;
+	color: grey;
+	border-bottom: grey 1px solid;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+}
+.postcard-footer {
+	text-align: center;
+}
+button {
+	border-radius: 5px;
+	background: grey;
+	padding: 5px 10px;
+	border-style: none;
+}
+button:hover {
+	background: rgb(88, 88, 88);
+}
